@@ -11,6 +11,6 @@
 
 #define MYRADIOCHAN 52  // RF channel for RCM ID 6
 
-static uint8_t myradiotxaddr[5] = {0x30, 0x10, 0x00, 0x00, 0x52};
+static uint8_t myradiotxaddr[5] = {0x30, 0x10, 0x00, 0x00, 0x56};
 
 #endif

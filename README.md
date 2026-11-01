@@ -8,6 +8,24 @@ Embedded C and FreeRTOS controller firmware for a remote-controlled microscope (
 
 A photograph from the original laboratory demonstration shows the microscope camera view with AprilTag ID 23 detected. This illustrates the wider RCM system used with the controller. The camera viewer and AprilTag detection software are external to the firmware in this repository.
 
+### Microscope hardware
+
+![RCM gantry, microscope camera, target sheet and control electronics](docs/images/rcm-hardware.jpg)
+
+The laboratory rig includes the motorized gantry, microscope camera, target sheets and control electronics. This is the hardware platform used with the controller firmware; the rig and its built-in interface are supplied system components.
+
+### Receiver control display
+
+![RCM control display showing X, Y, Z and angle readings](docs/images/control-display.jpg)
+
+The receiver interface displays position and angle information during the demonstration. This photograph shows X = 191, Y = 0, Z = 0 and angle = 110. A low-voltage warning is also visible; the photo records the observed state rather than a power-system validation.
+
+### Laboratory setup
+
+![Laboratory overview with RCM gantry, target sheet, controller hardware and AprilTag monitor](docs/images/rcm-lab-setup.jpg)
+
+An overview connects the controller hardware on the bench with the microscope rig and the monitor showing AprilTag ID 23.
+
 ### Radio packet output
 
 The receiver log photographed during the demonstration shows zoom commands arriving with type `0x26` and payloads `ZOOM030`, `ZOOM020`, and `ZOOM010`. A shortened transcription is shown below; the sender identifier is omitted for privacy.
