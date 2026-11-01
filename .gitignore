@@ -1,0 +1,12 @@
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+**/obj/
+*.o
+*.d
+.depend
+*.elf
+*.bin
+*.hex
+*.map
